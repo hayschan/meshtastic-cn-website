@@ -5,8 +5,8 @@ const brandsData: Brand[] = [
     id: 6,
     name: "Meshtastic",
     href: "https://meshtastic.org/",
-    image: "https://raw.githubusercontent.com/meshtastic/design/refs/heads/master/logo/logo.svg",
-    imageLight: "https://raw.githubusercontent.com/meshtastic/design/refs/heads/master/logo/logo.svg",
+    image: "/images/brands/meshtastic_typelogo.svg",
+    imageLight: "/images/brands/meshtastic_typelogo.svg",
   },
   {
     id: 7,
