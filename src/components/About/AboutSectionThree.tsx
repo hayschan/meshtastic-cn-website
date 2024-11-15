@@ -30,13 +30,13 @@ const AboutSectionThree = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/meshtastic-usecases.svg"
+                src="/images/about/outdoor-node.webp"
                 alt="Meshtastic Use Cases"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/meshtastic-usecases-dark.svg"
+                src="/images/about/outdoor-node.webp"
                 alt="Meshtastic Use Cases"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
