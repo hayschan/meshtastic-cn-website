@@ -26,19 +26,26 @@ const AboutSectionThree = () => {
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <div
-              className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
+              className="relative mx-auto mb-12 max-w-[380px] text-center lg:m-0"
+              style={{ aspectRatio: '3 / 4' }} // Set aspect ratio for 760 x 1024 image
               data-wow-delay=".15s"
             >
               <Image
                 src="/images/about/outdoor-node.webp"
                 alt="Meshtastic Use Cases"
-                fill
+                layout="responsive"
+                width={760} // Original width of the image
+                height={1024} // Original height of the image to maintain 3:4 ratio
+                objectFit="contain"
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
                 src="/images/about/outdoor-node.webp"
                 alt="Meshtastic Use Cases"
-                fill
+                layout="responsive"
+                width={760}
+                height={1024}
+                objectFit="contain"
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>
