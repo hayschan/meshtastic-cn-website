@@ -4,28 +4,10 @@ const AboutSectionTwo = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
-          <div className="w-full px-4 lg:w-1/2">
-            <div
-              className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
-              data-wow-delay=".15s"
-            >
-              <Image
-                src="/images/about/meshtastic-mqtt.webp"
-                alt="Meshtastic Features"
-                fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-              />
-              <Image
-                src="/images/about/meshtastic-mqtt.webp"
-                alt="Meshtastic Features"
-                fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-              />
-            </div>
-          </div>
-          <div className="w-full px-4 lg:w-1/2">
-            <div className="max-w-[470px]">
+        <div className="flex flex-col items-center text-center">
+          {/* Text Section */}
+          <div className="w-full px-4 lg:w-3/4 mb-8">
+            <div className="max-w-[600px] mx-auto">
               <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                 Meshtastic 的主要功能
               </h3>
@@ -49,6 +31,30 @@ const AboutSectionTwo = () => {
                   <strong>遥测数据：</strong>支持传感器数据，例如电池电量、信号强度，甚至天气数据。
                 </li>
               </ul>
+            </div>
+          </div>
+
+          {/* Centered Image Section */}
+          <div className="w-full px-4 lg:w-3/4">
+            <div className="relative mx-auto max-w-full">
+              <Image
+                src="/images/about/meshtastic-mqtt.webp"
+                alt="Meshtastic Features"
+                layout="responsive"
+                width={2364} // Image's original width
+                height={616} // Image's original height to maintain 3.84:1 aspect ratio
+                objectFit="contain"
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              />
+              <Image
+                src="/images/about/meshtastic-mqtt.webp"
+                alt="Meshtastic Features"
+                layout="responsive"
+                width={2364}
+                height={616}
+                objectFit="contain"
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+              />
             </div>
           </div>
         </div>
