@@ -15,15 +15,15 @@ const Footer = () => {
                     src="/images/brands/meshtastic_typelogo.svg"
                     alt="logo"
                     className="w-full dark:hidden"
-                    width={140}
-                    height={30}
+                    width={90}
+                    height={0}
                   />
                   <Image
                     src="/images/brands/meshtastic_typelogo.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
+                    width={90}
+                    height={0}
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
