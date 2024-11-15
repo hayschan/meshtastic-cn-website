@@ -57,14 +57,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="https://raw.githubusercontent.com/meshtastic/design/refs/heads/master/logo/svg/Mesh_Logo_Black.svg"
+                  src="https://raw.githubusercontent.com/meshtastic/design/refs/heads/master/logo/svg/Mesh_Logo_Black_Small.svg"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="https://raw.githubusercontent.com/meshtastic/design/refs/heads/master/logo/svg/Mesh_Logo_White.svg"
+                  src="https://raw.githubusercontent.com/meshtastic/design/refs/heads/master/logo/svg/Mesh_Logo_White_Small.svg"
                   alt="logo"
                   width={140}
                   height={30}
