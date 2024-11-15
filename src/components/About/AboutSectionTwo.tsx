@@ -11,13 +11,13 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/meshtastic-features.svg"
+                src="https://meshtastic.org/assets/images/mqtt-11ef04d26282404c5eaf6ae43b530c2f.webp"
                 alt="Meshtastic Features"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/meshtastic-features-dark.svg"
+                src="https://meshtastic.org/assets/images/mqtt-11ef04d26282404c5eaf6ae43b530c2f.webp"
                 alt="Meshtastic Features"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
