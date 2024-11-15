@@ -33,8 +33,8 @@ const brandsData: Brand[] = [
     id: 3,
     name: "Espressif Systems",
     href: "https://lora-alliance.org/",
-    image: "/images/brands/espressif-systems.svg",
-    imageLight: "/images/brands/espressif-systems.svg",
+    image: "/images/brands/Espressif_Logo.svg",
+    imageLight: "/images/brands/Espressif_Logo.svg",
   },
   // {
   //   id: 4,
