@@ -12,14 +12,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="https://raw.githubusercontent.com/meshtastic/design/refs/heads/master/logo/svg/Mesh_Logo_Black_Small.svg"
+                    src="/images/brands/meshtastic_typelogo.svg"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="https://raw.githubusercontent.com/meshtastic/design/refs/heads/master/logo/svg/Mesh_Logo_Black_Small.svg"
+                    src="/images/brands/meshtastic_typelogo.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
