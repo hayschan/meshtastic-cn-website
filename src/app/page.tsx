@@ -31,10 +31,10 @@ export default function Home() {
       <AboutSectionTwo />
       <AboutSectionThree />
       <AboutSectionFour />
-      <Testimonials />
+      {/* <Testimonials />
       <Pricing />
       <Blog />
-      <Contact />
+      <Contact /> */}
     </>
   );
 }
