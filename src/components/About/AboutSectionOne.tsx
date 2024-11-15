@@ -16,6 +16,9 @@ const AboutSectionOne = () => {
               <p className="text-base text-body-color">
                 Meshtastic 是完全社区驱动的项目，其目标是通过低成本的硬件和开源软件，为全球用户提供易用的长距离通信平台。它通过 LoRa 技术构建网状网络，用户设备会自动中继消息，实现区域覆盖。
               </p>
+              <p className="text-base text-body-color">
+                随着社区人数增多，更多区域就能获得覆盖，从而享受高质量的通信服务。目前以浙江和广东的节点最密集。
+              </p>
             </div>
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
