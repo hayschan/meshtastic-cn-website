@@ -2,9 +2,9 @@ import { Brand } from "@/types/brand";
 
 const brandsData: Brand[] = [
   {
-    id: 6,
+    id: 2,
     name: "Meshtastic",
-    href: "https://formbold.com",
+    href: "https://meshtastic.org/",
     image: "https://raw.githubusercontent.com/meshtastic/design/refs/heads/master/logo/logo.svg",
     imageLight: "https://raw.githubusercontent.com/meshtastic/design/refs/heads/master/logo/logo.svg",
   },
