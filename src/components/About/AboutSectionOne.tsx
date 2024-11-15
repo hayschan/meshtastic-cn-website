@@ -26,7 +26,7 @@ const AboutSectionOne = () => {
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/meshtastic-intro-dark.svg"
+                  src="https://meshtastic.org/assets/images/lora-topology-2-c80684f1eafdf2a71fbaf26e494fb26d.webp"
                   alt="Meshtastic Introduction"
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
