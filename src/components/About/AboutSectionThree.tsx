@@ -24,10 +24,12 @@ const AboutSectionThree = () => {
               </li>
             </ul>
           </div>
-          <div className="w-full px-4 lg:w-1/2">
+
+          {/* Adjusted image container to align to the right */}
+          <div className="w-full px-4 lg:w-1/2 flex justify-end">
             <div
-              className="relative mx-auto mb-12 max-w-[380px] text-center lg:m-0"
-              style={{ aspectRatio: '3 / 4' }} // Set aspect ratio for 760 x 1024 image
+              className="relative mb-12 max-w-[380px] lg:m-0"
+              style={{ aspectRatio: '3 / 4' }}
               data-wow-delay=".15s"
             >
               <Image
