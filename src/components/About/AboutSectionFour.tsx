@@ -29,7 +29,7 @@ const AboutSectionFour = () => {
               Meshtastic 的覆盖范围
             </h3>
             <p className="text-base font-medium text-body-color">
-              我们正在逐步部署节点，以覆盖更多区域，确保用户在本地和全球范围内都能享受高质量的通信服务。以下是当前网络覆盖示意图：
+              随着社区人数增多，更多区域就能获得覆盖，从而享受高质量的通信服务。目前以浙江和广东的节点最密集。
             </p>
           </div>
         </div>
