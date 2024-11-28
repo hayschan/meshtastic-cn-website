@@ -1,3 +1,5 @@
+# ⚠ 已经迁移到 repo [chinamesh/meshtastic-china-www](https://github.com/chinamesh/meshtastic-china-www). Moved to repo [chinamesh/meshtastic-china-www](https://github.com/chinamesh/meshtastic-china-www).
+
 # Meshtastic China Website
 
 欢迎访问 [Meshtastic China 网站](https://github.com/hayschan/meshtastic-cn-website)！这是一个面向 Meshtastic 中国社区的官方网站，旨在推广 Meshtastic 项目，帮助用户了解和使用 Meshtastic 提供的开源 LoRa 网状网络通信技术。
